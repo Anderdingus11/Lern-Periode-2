@@ -17,6 +17,19 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 ## Arbeitspakete für 23.10.2026
 - [x] Ich plane mein Quizspiel und schreibe auf, welche Funktionen es haben soll. (IPERKA)(PAP)
 - [x] Ich erstelle das Projekt auf C# und Programmiere das Grundgerüst.
-- [x] Ich erweitere das Gerüst, teste es und verbessere es.
-- [ ] Ich Programmiere, damit es Antworten einlesen kann und überprüfen kann ob es wahr oder Falsch ist.
+- [x] Ich verbessere die Themenauswahl, damit ungültige Eingaben erneut abgefragt werden. Ausserdem teste ich, ob das Programm auch bei falschen Eingaben richtig funktioniert.
+- [ ] Ich Programmiere, damit es Antworten einlesen kann und überprüfen kann ob es wahr oder Falsch ist.(Hausaufgabe)
+
+## Zusammenfassung 23.10.2026
+- Ich habe am Anfang der Stunde einen kleinen Fehler gemacht, indem ich mit dem Planen angefangen habe, was es dann dazu führte, dass ich sehr viel Zeit verlierte.
+- Danach als ich mit meinem Lehrer gesprochen habe, änderte ich alles was ich im Kopf hatte um, und startete direkt mit dem Programmieren.
+- Ich habe das Gerüst des Quiz Programmiert, damit er mir zuerst willkommen sagt, und dann die Themen vorstellt.
+- Danach habe ich es noch weiterverarbeitet, damit die Auswahl vom Thema auch Der Name sagt und nicht nur die zahl.
+- Zum Schluss testete ich das Programm, und verbesserte alle Fehler und Unübersichtlichkeiten die ich hatte.
+
+## Arbeitspakete 30.10.2026
+- [ ] Ich kontrolliere und verarbeite alles was ich gemacht habe weiter. Ich teste es und verarbeite es so das keine Fehler oder Unübersichtlichkeiten mehr vorkommen.
+- [ ] Ich programmiere die ersten Quizfragen mit jeweils drei Antwortmöglichkeiten. Das Programm soll erkennen, ob die eingegebene Antwort richtig oder falsch ist.
+- [ ] Ich füge eine Variable hinzu, die bei jeder richtigen Antwort einen Punkt erhält. Danach lasse ich den aktuellen Punktestand anzeigen.
+- [ ] Ich erweitere das Quiz auf mehrere Fragen und zeige am Ende die erreichten Punkte an. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten.
 
