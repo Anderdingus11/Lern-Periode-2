@@ -15,7 +15,7 @@ In meinem ILA-Projekt entwickle ich ein Quizspiel mit C# und Visual Studio. Die 
 Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktionen hinzufügen, zum Beispiel verschiedene Kategorien, zufällige Fragen und das Speichern von Fragen.
 
 ## Arbeitspakete für 23.10.2026
-- [ ]Ich plane mein Quizspiel und schreibe auf, welche Funktionen es haben soll.
-- [ ]Ich erstelle mein C#-Projekt in Visual Studio und richte mein GitHub-Repository ein.
+- [ ] Ich plane mein Quizspiel und schreibe auf, welche Funktionen es haben soll. (IPERKA)
+- [ ]Ich erstelle einen PAP für meinen Projekt. (PAP)
 - [ ]Ich programmiere meine erste Quizfrage und prüfe, ob die Antwort richtig oder falsch ist.
 - [ ]Ich teste mein Programm, verbessere Fehler und lade meinen Code auf GitHub hoch.
