@@ -11,6 +11,9 @@ Console.WriteLine("1. Informatik");
 Console.WriteLine("2. Fussball");
 Console.WriteLine("3. Geografie");
 
+
+//Variable Für die Anzahl Punkte
+int points = 0;
 //Auswahl der Themen
 //Wir wollen die theme Variable auch ausserhalb des Codes benutzen.
 string theme = "";
@@ -78,16 +81,19 @@ while (validAnswer1 == false)
     if (answer == "1" && theme == "1")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
         validAnswer1 = true;
     }
     else if (answer == "1" && theme == "2")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
         validAnswer1 = true;
     }
     else if (answer == "2" && theme == "3")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
         validAnswer1 = true;
     }
     else if (answer == "1" || answer == "2" || answer == "3")
@@ -99,4 +105,20 @@ while (validAnswer1 == false)
     {
         Console.WriteLine("Ungültige Antwort, versuche es nochmals.");
     }
+}
+//erzielte Punkte ausgeben.
+Console.WriteLine();
+Console.WriteLine("=====================");
+Console.WriteLine($"Dein Punktestand:");
+Console.WriteLine($"Punkte: {points}");
+Console.WriteLine("=====================");
+//Nachricht nach der Analyse der Punkte
+Console.WriteLine();
+if (points == 0)
+{
+    Console.WriteLine("Kopf hoch, das nächstes Mal klappt das Schon.");
+}
+else if (points == 1)
+{
+    Console.WriteLine("Gut gemacht! Deine Antwort ist richtig.");
 }
