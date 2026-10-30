@@ -30,6 +30,18 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 ## Arbeitspakete 30.10.2026
 - [x] Ich kontrolliere und verarbeite alles was ich gemacht habe weiter. Ich teste es und verarbeite es so das keine Fehler oder Unübersichtlichkeiten mehr vorkommen.
 - [x] Ich programmiere die ersten Quizfragen mit jeweils drei Antwortmöglichkeiten. Das Programm soll erkennen, ob die eingegebene Antwort richtig oder falsch ist.
-- [ ] Ich füge eine Variable hinzu, die bei jeder richtigen Antwort einen Punkt erhält. Danach lasse ich den aktuellen Punktestand anzeigen.
-- [ ] Ich erweitere das Quiz auf mehrere Fragen und zeige am Ende die erreichten Punkte an. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten.
+- [x] Ich füge eine Variable hinzu, die bei jeder richtigen Antwort einen Punkt erhält. Danach lasse ich den aktuellen Punktestand anzeigen.
+- [ ] Ich erweitere das Quiz mit 1-2 weitere Fragen. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten. (Hausaufgabe)
+
+## Zusammenfassung 30.10.2026
+- Ich habe alles was ich letzte Woche gemacht habe, analysiert und alle Fehler und Unübersichtlichkeiten verbessert, damit mein Code richtig und übersichtlich ist.
+- Danach habe ich meine erste Fragen für alle Themen gemacht. Letzte Woche waren es noch nur 1 konkrete Frage, obwohl man ein anderes Thema als Fussball genommen hat, heute hab ich es so programmiert, dass jedes Thema eine konkrete und passende Frage bekommt.
+- Schliesslich habe ich noch die Variable für die Punkte erstellt, und dazu habe ich noch programmiert, dass es anhand der Punkte eine Nachricht ausgibt. 0 = Kopf hoch!/ 1 = Gut gemacht!.
+- Schliesslich hatte ich noch Zeit, alle Fehler und Unübersichtlichkeiten zu überprüfen und zu korrigieren.
+
+## Arbeitspakete 06.11.2026
+- [ ] Ich programmiere eine einfachere Weise um die Fragen zu hinzufügen, damit ich im Code, pro Frage immer grosse Codes Programmieren muss. Ich benutze dafür zum Beispiel ein oder mehrere Arrays zu erstellen, damit ich dann die Fragen und Antworten in diesen Arrays speichern kan.
+- [ ] Mit dem neuen Fragensystem, kann ich die Fragen und Antworten einfacher einfügen, aus diesem Grund will ich im zweiten Arbeitspaket, mein Quiz so weit wie möglich mit weitere Fragen ergänzen.
+- [ ] Ich verbessere die Struktur meines Codes, damit die verschiedenen Fragen übersichtlich voneinander getrennt sind. Ausserdem verwende ich passende Kommentare und Variablennamen und Passe das Endergebnis System an, und dazu auch die Nachricht dies es ausgibt, wenn es entweder eine hohe oder eine Tiefere Punktzahl hat.
+- [ ] Ich teste mein Quiz mit verschiedenen Themen und unterschiedlichen Antworten. Dabei suche ich Fehler, verbessere diese und überprüfe, ob das gesamte Programm zuverlässig funktioniert.
 
