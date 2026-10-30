@@ -18,7 +18,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [x] Ich plane mein Quizspiel und schreibe auf, welche Funktionen es haben soll. (IPERKA)(PAP)
 - [x] Ich erstelle das Projekt auf C# und Programmiere das Grundgerüst.
 - [x] Ich verbessere die Themenauswahl, damit ungültige Eingaben erneut abgefragt werden. Ausserdem teste ich, ob das Programm auch bei falschen Eingaben richtig funktioniert.
-- [ ] Ich Programmiere, damit es Antworten einlesen kann und überprüfen kann ob es wahr oder Falsch ist.(Hausaufgabe)
+- [x] Ich Programmiere, damit es Antworten einlesen kann und überprüfen kann ob es wahr oder Falsch ist.(Hausaufgabe)
 
 ## Zusammenfassung 23.10.2026
 - Ich habe am Anfang der Stunde einen kleinen Fehler gemacht, indem ich mit dem Planen angefangen habe, was es dann dazu führte, dass ich sehr viel Zeit verlierte.
