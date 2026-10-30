@@ -28,8 +28,8 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - Zum Schluss testete ich das Programm, und verbesserte alle Fehler und Unübersichtlichkeiten die ich hatte.
 
 ## Arbeitspakete 30.10.2026
-- [ ] Ich kontrolliere und verarbeite alles was ich gemacht habe weiter. Ich teste es und verarbeite es so das keine Fehler oder Unübersichtlichkeiten mehr vorkommen.
-- [ ] Ich programmiere die ersten Quizfragen mit jeweils drei Antwortmöglichkeiten. Das Programm soll erkennen, ob die eingegebene Antwort richtig oder falsch ist.
+- [x] Ich kontrolliere und verarbeite alles was ich gemacht habe weiter. Ich teste es und verarbeite es so das keine Fehler oder Unübersichtlichkeiten mehr vorkommen.
+- [x] Ich programmiere die ersten Quizfragen mit jeweils drei Antwortmöglichkeiten. Das Programm soll erkennen, ob die eingegebene Antwort richtig oder falsch ist.
 - [ ] Ich füge eine Variable hinzu, die bei jeder richtigen Antwort einen Punkt erhält. Danach lasse ich den aktuellen Punktestand anzeigen.
 - [ ] Ich erweitere das Quiz auf mehrere Fragen und zeige am Ende die erreichten Punkte an. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten.
 
