@@ -40,8 +40,12 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - Schliesslich hatte ich noch Zeit, alle Fehler und Unübersichtlichkeiten zu überprüfen und zu korrigieren.
 
 ## Arbeitspakete 06.11.2026
-- [ ] Ich programmiere eine einfachere Weise um die Fragen zu hinzufügen, damit ich im Code, pro Frage immer grosse Codes Programmieren muss. Ich benutze dafür zum Beispiel ein oder mehrere Arrays zu erstellen, damit ich dann die Fragen und Antworten in diesen Arrays speichern kan.
-- [ ] Mit dem neuen Fragensystem, kann ich die Fragen und Antworten einfacher einfügen, aus diesem Grund will ich im zweiten Arbeitspaket, mein Quiz so weit wie möglich mit weitere Fragen ergänzen.
-- [ ] Ich verbessere die Struktur meines Codes, damit die verschiedenen Fragen übersichtlich voneinander getrennt sind. Ausserdem verwende ich passende Kommentare und Variablennamen und Passe das Endergebnis System an, und dazu auch die Nachricht dies es ausgibt, wenn es entweder eine hohe oder eine Tiefere Punktzahl hat.
-- [ ] Ich teste mein Quiz mit verschiedenen Themen und unterschiedlichen Antworten. Dabei suche ich Fehler, verbessere diese und überprüfe, ob das gesamte Programm zuverlässig funktioniert.
+- [x] Ich will in diesem ersten Paket, mein Code mit so viele Fragen wie möglich zu ergänzen.
+- [x] Ich erstelle ein komplett neues Thema, der man auswählen kann, und dazu Fragen formulieren.
+- [x] Ich verbessere die Struktur meines Codes, damit die verschiedenen Fragen übersichtlich voneinander getrennt sind. Ausserdem verwende ich passende Kommentare und Variablennamen und Passe das Endergebnis System an, und dazu auch die Nachricht dies es ausgibt, wenn es entweder eine hohe oder eine Tiefere Punktzahl hat.
+- [x] Ich teste mein Quiz mit verschiedenen Themen und unterschiedlichen Antworten. Dabei suche ich Fehler, verbessere diese und überprüfe, ob das gesamte Programm zuverlässig funktioniert.
+
+## Zusammenfassung 06.11.2026
+- Ich habe heute meinen Quiz mit mehrere Fragen ergänzt, dazu habe ich noch ein komplett neues Thema zur Auswahl hinzugefügt. Das neue Thema war Chemie.
+- Anschliessend, als ich es dann getestet habe, habe ich viele Fehler gefunden, aus diesem Grund musste ich für jedes Thema, die richtigen, die falschen und die ungültige Antworten überprüfen. Anschliessen als ich mit der Korrektur fertig war, schaute ich noch nach Unübersichtlichkeiten und verbesserte diese.
 
