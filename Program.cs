@@ -1,4 +1,6 @@
 ﻿//Ich habe mit das Gerüst des Programms angefangen.
+using System.ComponentModel.Design;
+
 Console.WriteLine("==========================");
 Console.WriteLine("Wilkommen zum Mega Quiz!");
 Console.WriteLine("==========================");
@@ -70,6 +72,7 @@ Console.WriteLine();
         Console.WriteLine("3. Genf");
     }    
 
+
 //Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
 string answer = "";
 bool validAnswer1 = false;
@@ -106,6 +109,68 @@ while (validAnswer1 == false)
         Console.WriteLine("Ungültige Antwort, versuche es nochmals.");
     }
 }
+
+//Frage Nummer 2
+Console.WriteLine();
+ if (theme == "1")
+{
+    Console.WriteLine("Frage Nummer 2: Was bedeutet die Abkürzung CPU?");
+    Console.WriteLine("1. Central Processing Unit.");
+    Console.WriteLine("2. Computer personal Unit");
+    Console.WriteLine("3. Centrall Program User");
+}
+else if (theme == "2")
+{
+    Console.WriteLine("Frage Nummer 2: Wie viele Spieler hat eine Fussballmannschaft normalerweise auf dem Platz?");
+    Console.WriteLine("1. 9");
+    Console.WriteLine("2. 11");
+    Console.WriteLine("3. 12");
+}
+else
+{
+    Console.WriteLine("Frage Nummer 2: Welcher ist der grösste Kontinent?");
+    Console.WriteLine("1. Afrika");
+    Console.WriteLine("2. Europa");
+    Console.WriteLine("3. Asien");
+}
+
+//Antwort von Frage Nummer 2 prüfen
+bool validAnswer2 = false;
+while (validAnswer2 == false)
+{
+    //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
+    Console.WriteLine("Antworte von 1-3!");
+    answer = Console.ReadLine();
+    if (answer == "1" && theme == "1")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer2 = true;
+    }
+    else if (answer == "2" && theme == "2")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer2 = true;
+    }
+    else if (answer == "3" && theme == "3")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer2 = true;
+    }
+    else if (answer == "1" || answer == "2" || answer == "3")
+    {
+        Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
+        validAnswer2 = true;
+    }
+    else
+    {
+        Console.WriteLine("Ungültige Antwort, versuche es nochmals.");
+    }
+}
+
+
 //erzielte Punkte ausgeben.
 Console.WriteLine();
 Console.WriteLine("=====================");
@@ -121,4 +186,8 @@ if (points == 0)
 else if (points == 1)
 {
     Console.WriteLine("Gut gemacht! Deine Antwort ist richtig.");
+}
+else if (points == 2)
+{
+    Console.WriteLine("Perfekt!!!");
 }
