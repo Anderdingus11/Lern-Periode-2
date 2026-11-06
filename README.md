@@ -49,3 +49,9 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - Ich habe heute meinen Quiz mit mehrere Fragen ergänzt, dazu habe ich noch ein komplett neues Thema zur Auswahl hinzugefügt. Das neue Thema war Chemie.
 - Anschliessend, als ich es dann getestet habe, habe ich viele Fehler gefunden, aus diesem Grund musste ich für jedes Thema, die richtigen, die falschen und die ungültige Antworten überprüfen. Anschliessen als ich mit der Korrektur fertig war, schaute ich noch nach Unübersichtlichkeiten und verbesserte diese.
 
+## Arbeitspakete 13.11.2026
+- [ ] Ich möchte Für jede Frage eine neue mögliche Antwort zur Verfügung stellen.
+- [ ] Ich möchte einen fünften neuen Thema erstellen.
+- [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt.
+- [ ] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
+
