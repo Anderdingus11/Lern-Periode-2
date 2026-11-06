@@ -31,7 +31,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [x] Ich kontrolliere und verarbeite alles was ich gemacht habe weiter. Ich teste es und verarbeite es so das keine Fehler oder Unübersichtlichkeiten mehr vorkommen.
 - [x] Ich programmiere die ersten Quizfragen mit jeweils drei Antwortmöglichkeiten. Das Programm soll erkennen, ob die eingegebene Antwort richtig oder falsch ist.
 - [x] Ich füge eine Variable hinzu, die bei jeder richtigen Antwort einen Punkt erhält. Danach lasse ich den aktuellen Punktestand anzeigen.
-- [ ] Ich erweitere das Quiz mit 1-2 weitere Fragen. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten. (Hausaufgabe)
+- [x] Ich erweitere das Quiz mit 1-2 weitere Fragen. Anschliessend teste ich das gesamte Programm mit verschiedenen Antworten. (Hausaufgabe)
 
 ## Zusammenfassung 30.10.2026
 - Ich habe alles was ich letzte Woche gemacht habe, analysiert und alle Fehler und Unübersichtlichkeiten verbessert, damit mein Code richtig und übersichtlich ist.
