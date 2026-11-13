@@ -13,6 +13,7 @@ Console.WriteLine("1. Informatik");
 Console.WriteLine("2. Fussball");
 Console.WriteLine("3. Geografie");
 Console.WriteLine("4. Chemie");
+Console.WriteLine("5. Mathematik");
 
 
 //Variable Für die Anzahl Punkte
@@ -49,6 +50,11 @@ while (valid == false)
     {
         valid = true;
         Console.WriteLine($"Du hast dich für Chemie entschieden. Ich finde dieses Thema sehr kompliziert. Viel erfolg!");
+    }
+    else if (theme == "5")
+    {
+        valid = true;
+        Console.WriteLine("Du hast dich für Mathematik entschieden. Viel Spass beim Rechnen!");
     }
     else
     {
@@ -92,9 +98,17 @@ Console.WriteLine();
         Console.WriteLine("3. O");
         Console.WriteLine("4. W");
     }
+else if (theme == "5")
+{
+    Console.WriteLine("Frage 1: Was ist: 45 + 28 * 2");
+    Console.WriteLine("1. 101");
+    Console.WriteLine("2. 100");
+    Console.WriteLine("3. 146");
+    Console.WriteLine("4. 118");
+}
 
-//Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
-string answer = "";
+    //Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
+    string answer = "";
 bool validAnswer1 = false;
 while (validAnswer1 == false)
 {
@@ -120,6 +134,12 @@ while (validAnswer1 == false)
         validAnswer1 = true;
     }
     else if (answer == "4" && theme == "4")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer1 = true;
+    }
+    else if (answer == "1" && theme == "5")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -170,9 +190,17 @@ else if (theme == "3")
     Console.WriteLine("3. O₂");
     Console.WriteLine("4. H₂O");
 }
+else if (theme == "5")
+{
+    Console.WriteLine("Frage Nummer 2: Wie viel sind 20% von 150CHF?");
+    Console.WriteLine("1. 3 CHF");
+    Console.WriteLine("2. 30 CHF");
+    Console.WriteLine("3. 15 CHF");
+    Console.WriteLine("4. 50 CHF");
+}
 
-//Antwort von Frage Nummer 2 prüfen
-bool validAnswer2 = false;
+    //Antwort von Frage Nummer 2 prüfen
+    bool validAnswer2 = false;
 while (validAnswer2 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
@@ -197,6 +225,12 @@ while (validAnswer2 == false)
         validAnswer2 = true;
     }
     else if (answer == "4" && theme == "4")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer2 = true;
+    }
+    else if (answer == "2" && theme == "5")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -247,10 +281,18 @@ else if (theme == "4")
     Console.WriteLine("3. 3");
     Console.WriteLine("4. keine");
 }
+else if (theme == "5")
+{
+    Console.WriteLine("Frage Nummer 3: Rechne: 1/3 + 1/4");
+    Console.WriteLine("1. 0.7");
+    Console.WriteLine("2. 3/4");
+    Console.WriteLine("3. 2/7");
+    Console.WriteLine("4. 2/3");
+}
 
 
-//Antwort von Frage Nummer 3 prüfen
-bool validAnswer3 = false;
+    //Antwort von Frage Nummer 3 prüfen
+    bool validAnswer3 = false;
 while (validAnswer3 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
@@ -275,6 +317,12 @@ while (validAnswer3 == false)
         validAnswer3 = true;
     }
     else if (answer == "1" && theme == "4")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer3 = true;
+    }
+    else if (answer == "2" && theme == "5")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -325,9 +373,17 @@ else if (theme == "4")
     Console.WriteLine("3. Helium");
     Console.WriteLine("4. Wasserdampf");
 }
+else if (theme == "5")
+{
+    Console.WriteLine("Frage Nummer 4: Löse nach x auf: 3x + 5 = 20");
+    Console.WriteLine("1. 20");
+    Console.WriteLine("2. 3");
+    Console.WriteLine("3. 15");
+    Console.WriteLine("4. 5");
+}
 
-//Antwort von Frage Nummer 4 prüfen
-bool validAnswer4 = false;
+    //Antwort von Frage Nummer 4 prüfen
+    bool validAnswer4 = false;
 while (validAnswer4 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
@@ -352,6 +408,12 @@ while (validAnswer4 == false)
         validAnswer4 = true;
     }
     else if (answer == "2" && theme == "4")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer4 = true;
+    }
+    else if (answer == "4" && theme == "5")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -402,10 +464,17 @@ else if (theme == "4")
     Console.WriteLine("3. Au");
     Console.WriteLine("4. Ac");
 }
+else if (theme == "5")
+{
+    Console.WriteLine("Frage Nummer 5: Ein Rechteck ist 8cm lang und 5cm breit. Wie gross ist die Fläche?");
+    Console.WriteLine("1. 40cm²");
+    Console.WriteLine("2. 40cm");
+    Console.WriteLine("3. 40cm³");
+    Console.WriteLine("4. 40m");
+}
 
-
-//Antwort von Frage Nummer 4 prüfen
-bool validAnswer5 = false;
+    //Antwort von Frage Nummer 4 prüfen
+    bool validAnswer5 = false;
 while (validAnswer5 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
@@ -430,6 +499,12 @@ while (validAnswer5 == false)
         validAnswer5 = true;
     }
     else if (answer == "3" && theme == "4")
+    {
+        Console.WriteLine("Korrekt! Yuhuu!");
+        points++;
+        validAnswer5 = true;
+    }
+    else if (answer == "1" && theme == "5")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
