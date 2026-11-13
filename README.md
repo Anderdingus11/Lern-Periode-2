@@ -54,4 +54,3 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [x] Ich möchte einen fünften neuen Thema erstellen.
 - [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt.
 - [ ] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
-
