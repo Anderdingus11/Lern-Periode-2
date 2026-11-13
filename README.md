@@ -53,7 +53,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [x] Ich möchte Für jede Frage eine neue mögliche Antwort zur Verfügung stellen.
 - [x] Ich möchte einen fünften neuen Thema erstellen.
 - [x] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
-- [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt.
+- [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt. (Hausaufgabe)
 
 ## Zusammenfassung 13.11.2026
 - Ich habe heute für Jede Frage einen vierte mögliche Antwort hinzugefügt.
