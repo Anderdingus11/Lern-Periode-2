@@ -17,11 +17,14 @@ Console.WriteLine("4. Chemie");
 
 //Variable Für die Anzahl Punkte
 int points = 0;
+
 //Auswahl der Themen
 //Wir wollen die theme Variable auch ausserhalb des Codes benutzen.
 string theme = "";
+
 //Wenn eine ungültige eingabe eingegeben wird,soll die Frage erneut gefragt werden
 bool valid = false;
+
 while (valid == false)
 {
     Console.WriteLine("Wähle etwas aus! (1-4)");
@@ -55,6 +58,7 @@ while (valid == false)
 
 //Erste Quizfrage Programmieren
 Console.WriteLine();
+
 // durch diese If schleife, kann man die frage am gewählten Thema anpassen.
     if (theme == "1")
     {
@@ -62,6 +66,7 @@ Console.WriteLine();
         Console.WriteLine("1. Eine Programmiersprache");
         Console.WriteLine("2. Ein Computerspiel");
         Console.WriteLine("3. Ein Betriebssystem");
+        Console.WriteLine("4. Ein Film ");
     }
     else if (theme == "2")
     {
@@ -69,6 +74,7 @@ Console.WriteLine();
         Console.WriteLine("1. Argentinien");
         Console.WriteLine("2. Spanien");
         Console.WriteLine("3. Frankreich");
+        Console.WriteLine("4. Brazilien");
     }
     else if (theme == "3")
     {
@@ -76,13 +82,15 @@ Console.WriteLine();
         Console.WriteLine("1. Zürich");
         Console.WriteLine("2. Bern");
         Console.WriteLine("3. Genf");
+        Console.WriteLine("4. Aargau");
     }
     else if (theme == "4")
     {
         Console.WriteLine("Frage 1: Wie lautet das chemische Symbol für Wasserstoff?");
-        Console.WriteLine("1. W");
+        Console.WriteLine("1. C");
         Console.WriteLine("2. H");
         Console.WriteLine("3. O");
+        Console.WriteLine("4. W");
     }
 
 //Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
@@ -91,7 +99,7 @@ bool validAnswer1 = false;
 while (validAnswer1 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
-    Console.WriteLine("Antworte von 1-3!");
+    Console.WriteLine("Antworte von 1-4!");
     answer = Console.ReadLine();
     if (answer == "1" && theme == "1")
     {
@@ -111,13 +119,13 @@ while (validAnswer1 == false)
         points++;
         validAnswer1 = true;
     }
-    else if (answer == "2" && theme == "4")
+    else if (answer == "4" && theme == "4")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
         validAnswer1 = true;
     }
-    else if (answer == "1" || answer == "2" || answer == "3")
+    else if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer1 = true;
@@ -136,13 +144,15 @@ Console.WriteLine();
     Console.WriteLine("1. Central Processing Unit.");
     Console.WriteLine("2. Computer personal Unit");
     Console.WriteLine("3. Centrall Program User");
+    Console.WriteLine("4. Central Processing User");
 }
 else if (theme == "2")
 {
     Console.WriteLine("Frage Nummer 2: Wie viele Spieler hat eine Fussballmannschaft normalerweise auf dem Platz?");
     Console.WriteLine("1. 9");
-    Console.WriteLine("2. 11");
+    Console.WriteLine("2. 10");
     Console.WriteLine("3. 12");
+    Console.WriteLine("4. 11");
 }
 else if (theme == "3")
 {
@@ -150,13 +160,15 @@ else if (theme == "3")
     Console.WriteLine("1. Afrika");
     Console.WriteLine("2. Europa");
     Console.WriteLine("3. Asien");
+    Console.WriteLine("4. Amerika");
 }
  else if (theme == "4")
 {
     Console.WriteLine("Frage Nummer 2: Wie lautet die chemische Formel für Wasser?");
-    Console.WriteLine("1. H₂O");
+    Console.WriteLine("1. C₂O");
     Console.WriteLine("2. CO₂");
     Console.WriteLine("3. O₂");
+    Console.WriteLine("4. H₂O");
 }
 
 //Antwort von Frage Nummer 2 prüfen
@@ -164,7 +176,7 @@ bool validAnswer2 = false;
 while (validAnswer2 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
-    Console.WriteLine("Antworte von 1-3!");
+    Console.WriteLine("Antworte von 1-4!");
     answer = Console.ReadLine();
     if (answer == "1" && theme == "1")
     {
@@ -172,7 +184,7 @@ while (validAnswer2 == false)
         points++;
         validAnswer2 = true;
     }
-    else if (answer == "2" && theme == "2")
+    else if (answer == "4" && theme == "2")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -184,13 +196,13 @@ while (validAnswer2 == false)
         points++;
         validAnswer2 = true;
     }
-    else if (answer == "1" && theme == "4")
+    else if (answer == "4" && theme == "4")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
         validAnswer2 = true;
     }
-    else if (answer == "1" || answer == "2" || answer == "3")
+    else if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer2 = true;
@@ -209,6 +221,7 @@ if (theme == "1")
     Console.WriteLine("1. Ein Speicherplatz für Daten");
     Console.WriteLine("2. Ein Computerbildschirm");
     Console.WriteLine("3. Ein Internetbrowser");
+    Console.WriteLine("4. Eine Schleife");
 }
 else if (theme == "2")
 {
@@ -216,6 +229,7 @@ else if (theme == "2")
     Console.WriteLine("1. 80 Minuten");
     Console.WriteLine("2. 90 Minuten");
     Console.WriteLine("3. 100 Minuten");
+    Console.WriteLine("4. 45 Minuten");
 }
 else if (theme == "3")
 {
@@ -223,6 +237,7 @@ else if (theme == "3")
     Console.WriteLine("1. Nil");
     Console.WriteLine("2. Rhein");
     Console.WriteLine("3. Themse");
+    Console.WriteLine("4. Reus");
 }
 else if (theme == "4")
 {
@@ -230,6 +245,7 @@ else if (theme == "4")
     Console.WriteLine("1. 1");
     Console.WriteLine("2. 2");
     Console.WriteLine("3. 3");
+    Console.WriteLine("4. keine");
 }
 
 
@@ -238,7 +254,7 @@ bool validAnswer3 = false;
 while (validAnswer3 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
-    Console.WriteLine("Antworte von 1-3!");
+    Console.WriteLine("Antworte von 1-4!");
     answer = Console.ReadLine();
     if (answer == "1" && theme == "1")
     {
@@ -264,7 +280,7 @@ while (validAnswer3 == false)
         points++;
         validAnswer3 = true;
     }
-    else if (answer == "1" || answer == "2" || answer == "3")
+    else if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer3 = true;
@@ -280,9 +296,10 @@ Console.WriteLine();
 if (theme == "1")
 {
     Console.WriteLine("Frage Nummer 4: Was bedeutet HTML?");
-    Console.WriteLine("1. HyperText Markup Language");
+    Console.WriteLine("1. Hyper Tool Metal Language");
     Console.WriteLine("2. High Technology Machine Language");
     Console.WriteLine("3. Home Tool Management Language");
+    Console.WriteLine("4. HyperText Markup Language");
 }
 else if (theme == "2")
 {
@@ -290,6 +307,7 @@ else if (theme == "2")
     Console.WriteLine("1.  Hattrick");
     Console.WriteLine("2. Triple Pass");
     Console.WriteLine("3. Supergoal");
+    Console.WriteLine("4. Foottrick");
 }
 else if (theme == "3")
 {
@@ -297,6 +315,7 @@ else if (theme == "3")
     Console.WriteLine("1. fünf");
     Console.WriteLine("2. sechs");
     Console.WriteLine("3. sieben");
+    Console.WriteLine("4. acht");
 }
 else if (theme == "4")
 {
@@ -304,6 +323,7 @@ else if (theme == "4")
     Console.WriteLine("1. Stickstoff");
     Console.WriteLine("2. Sauerstoff");
     Console.WriteLine("3. Helium");
+    Console.WriteLine("4. Wasserdampf");
 }
 
 //Antwort von Frage Nummer 4 prüfen
@@ -311,9 +331,9 @@ bool validAnswer4 = false;
 while (validAnswer4 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
-    Console.WriteLine("Antworte von 1-3!");
+    Console.WriteLine("Antworte von 1-4!");
     answer = Console.ReadLine();
-    if (answer == "1" && theme == "1")
+    if (answer == "4" && theme == "1")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -337,7 +357,7 @@ while (validAnswer4 == false)
         points++;
         validAnswer4 = true;
     }
-    else if (answer == "1" || answer == "2" || answer == "3")
+    else if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer4 = true;
@@ -356,6 +376,7 @@ if (theme == "1")
     Console.WriteLine("1. Sie löscht das Programm");
     Console.WriteLine("2. Sie wiederholt Anweisungen");
     Console.WriteLine("3. Sie startet den Computer neu");
+    Console.WriteLine("4. Sie geben dir einen Virus");
 }
 else if (theme == "2")
 {
@@ -363,13 +384,15 @@ else if (theme == "2")
     Console.WriteLine("1.  Gelbe Karte");
     Console.WriteLine("2. Grüne Karte");
     Console.WriteLine("3. Rote Karte");
+    Console.WriteLine("4. Weisse Karte");
 }
 else if (theme == "3")
 {
     Console.WriteLine("Frage Nummer 5: Welches Land hat die Form eines Stiefels?");
     Console.WriteLine("1. Spanien");
-    Console.WriteLine("2. Italien");
+    Console.WriteLine("2. Frankreich");
     Console.WriteLine("3. Portugal");
+    Console.WriteLine("4. Italien");
 }
 else if (theme == "4")
 {
@@ -377,6 +400,7 @@ else if (theme == "4")
     Console.WriteLine("1. Go");
     Console.WriteLine("2. Gd");
     Console.WriteLine("3. Au");
+    Console.WriteLine("4. Ac");
 }
 
 
@@ -385,7 +409,7 @@ bool validAnswer5 = false;
 while (validAnswer5 == false)
 {
     //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
-    Console.WriteLine("Antworte von 1-3!");
+    Console.WriteLine("Antworte von 1-4!");
     answer = Console.ReadLine();
     if (answer == "2" && theme == "1")
     {
@@ -399,7 +423,7 @@ while (validAnswer5 == false)
         points++;
         validAnswer5 = true;
     }
-    else if (answer == "2" && theme == "3")
+    else if (answer == "4" && theme == "3")
     {
         Console.WriteLine("Korrekt! Yuhuu!");
         points++;
@@ -411,7 +435,7 @@ while (validAnswer5 == false)
         points++;
         validAnswer5 = true;
     }
-    else if (answer == "1" || answer == "2" || answer == "3")
+    else if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer5 = true;
@@ -437,5 +461,5 @@ if (points < 2)
 }
 else if (points > 2)
 {
-    Console.WriteLine("Sehr gut gemacht!");
+    Console.WriteLine("Gut gemacht!");
 }
