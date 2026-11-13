@@ -52,5 +52,17 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 ## Arbeitspakete 13.11.2026
 - [x] Ich möchte Für jede Frage eine neue mögliche Antwort zur Verfügung stellen.
 - [x] Ich möchte einen fünften neuen Thema erstellen.
+- [x] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
 - [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt.
-- [ ] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
+
+## Zusammenfassung 13.11.2026
+- Ich habe heute für Jede Frage einen vierte mögliche Antwort hinzugefügt.
+- Anschliessend habe ich wieder einen fünften Thema zur Auswahl erstellt, und zwar Mathematik.
+- Zum Schluss habe ich das ganze Programm nochmals ausgetestet, und zwar indem ich für jedes Thema und jede Frage alle 4 Antworten ausprobiert habe. Die ungültige Option der Eingaben habe ich auch getestet.
+- Ich habe nicht so viele Fehler wie das letztes Mal gefunden, aus diesem Grund kann ich sicher sagen, dass meine Programmieren Skills sich am verbessern sind.
+
+## Arbeitspakete 20.11.2026
+- [ ] Ich möchte 3 verschiedene Schwierigkeit Stufen hinzufügen, welche dann man selber aussuchen kann welche Schwierigkeit man haben will.
+- [ ] Ich möchte mindestens 3 Multiple Choice Fragen in meinem Quiz haben.
+- [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht.
+- [ ] Ich arbeite an meine Erklärungen von Lösungen weiter, und teste das Programm noch kurz aus, um Fehler zu suchen.
