@@ -107,7 +107,7 @@ else if (theme == "5")
     Console.WriteLine("4. 118");
 }
 
-    //Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
+//Wir brauchen eine Bool Variable zum Prüfen ob die antwort valide ist. Und auch eine Variable für alle antworten.
     string answer = "";
 bool validAnswer1 = false;
 while (validAnswer1 == false)
@@ -149,6 +149,28 @@ while (validAnswer1 == false)
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer1 = true;
+
+        // Die Lösungen nach der falsche Antwort
+        if (theme == "1")
+        {
+            Console.WriteLine("Die richtige Antwort war Nummer 1: Eine Programmiersprache");
+        }
+        else if (theme == "2")
+        {
+            Console.WriteLine("Die richtige Antwort war Nummer 1: Argentinien");
+        }
+        else if (theme == "3")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 2: Bern");
+        }
+        else if (theme == "4")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 4: W");
+        }
+        else if (theme == "5")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 1: 101");
+        }
     }
     else
     {
@@ -240,6 +262,26 @@ while (validAnswer2 == false)
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer2 = true;
+        if (theme == "1")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 1: Central Processing Unit");
+        }
+        else if (theme == "2")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 4: 11");
+        }
+        else if (theme == "3")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 3: Asien");
+        }
+        else if (theme == "4")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 4: H₂O");
+        }
+        else if (theme == "5")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 2: 30 CHF");
+        }
     }
     else
     {
@@ -332,6 +374,26 @@ while (validAnswer3 == false)
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer3 = true;
+        if (theme == "1")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 1: Ein Speicherplatz für Daten.");
+        }
+        else if (theme == "2")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 2: 90 Minuten.");
+        }
+        else if (theme == "3")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 1: Nil");
+        }
+        else if (theme == "4")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 1: 1 Wasserstoffatom");
+        }
+        else if (theme == "5")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 2: 3/4");
+        }
     }
     else
     {
@@ -423,6 +485,27 @@ while (validAnswer4 == false)
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer4 = true;
+
+        if (theme == "1")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 4: HyperText Markup Language");
+        }
+        else if (theme == "2")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 1: Hattrick");
+        }
+        else if (theme == "3")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 3: Sieben");
+        }
+        else if (theme == "4")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 2: Sauerstoff");
+        }
+        else if (theme == "5")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 4: 5");
+        }
     }
     else
     {
@@ -514,27 +597,55 @@ while (validAnswer5 == false)
     {
         Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal.");
         validAnswer5 = true;
+
+        if (theme == "1")
+        {
+            Console.WriteLine("Die richtige Antwort war die Nummer 2: Sie wiederholt Anweisungen");
+        }
+        else if (theme == "2")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 3: Rote Karte");
+        }
+        else if (theme == "3")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 4: Italien");
+        }
+        else if (theme == "4")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 3: Au");
+        }
+        else if (theme == "5")
+        {
+            Console.WriteLine("Die richtige Antwort ist die Nummer 1: 40cm");
+        }
+        else
+        {
+            Console.WriteLine("Ungültige Antwort, versuche es nochmals.");
+        }
     }
-    else
+}
+
+
+
+
+    //erzielte Punkte ausgeben.
+    Console.WriteLine();
+    Console.WriteLine("=====================");
+    Console.WriteLine($"Dein Punktestand:");
+    Console.WriteLine($"Punkte: {points}");
+    Console.WriteLine("=====================");
+    //Nachricht nach der Analyse der Punkte
+    Console.WriteLine();
+
+    if (points < 2)
     {
-        Console.WriteLine("Ungültige Antwort, versuche es nochmals.");
+        Console.WriteLine("Kopf hoch, das nächste Mal klappt das schon.");
     }
-}
-
-
-//erzielte Punkte ausgeben.
-Console.WriteLine();
-Console.WriteLine("=====================");
-Console.WriteLine($"Dein Punktestand:");
-Console.WriteLine($"Punkte: {points}");
-Console.WriteLine("=====================");
-//Nachricht nach der Analyse der Punkte
-Console.WriteLine();
-if (points < 2)
-{
-    Console.WriteLine("Kopf hoch, das nächstes Mal klappt das Schon.");
-}
-else if (points > 2)
-{
-    Console.WriteLine("Gut gemacht!");
-}
+    else if (points == 2)
+    {
+        Console.WriteLine("Nicht schlecht!");
+    }
+    else if (points > 2)
+    {
+        Console.WriteLine("Gut gemacht!");
+    }
