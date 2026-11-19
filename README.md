@@ -53,7 +53,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [x] Ich möchte Für jede Frage eine neue mögliche Antwort zur Verfügung stellen.
 - [x] Ich möchte einen fünften neuen Thema erstellen.
 - [x] Anschliessend Teste ich mein Programm, und ich bringe alle Fehler die ich finde, wieder in Ordnung.
-- [ ] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt. (Hausaufgabe)
+- [x] Ich will, dass mir das Programm, bei Falschen angaben, die Richtige Antwort gibt. (Hausaufgabe)
 
 ## Zusammenfassung 13.11.2026
 - Ich habe heute für Jede Frage einen vierte mögliche Antwort hinzugefügt.
@@ -65,4 +65,4 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - [ ] Ich möchte 3 verschiedene Schwierigkeit Stufen hinzufügen, welche dann man selber aussuchen kann welche Schwierigkeit man haben will.
 - [ ] Ich möchte mindestens 3 Multiple Choice Fragen in meinem Quiz haben.
 - [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht.
-- [ ] Ich arbeite an meine Erklärungen von Lösungen weiter, und teste das Programm noch kurz aus, um Fehler zu suchen.
+- [ ] Ich arbeite an meine Erklärungen von Lösungen weiter, und teste das Programm noch kurz aus, um Fehler zu suchen. Und Lösungen grün machen.
