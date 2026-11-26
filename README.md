@@ -63,10 +63,9 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 
 ## Arbeitspakete 20.11.2026
 - [x] Möglichkeit für drei verschiedene Schwierigkeitsstufen ermöglichen, an denen ich nächstes mal arbeiten werde.
-- [ ] Mindestens eine Frage mit mehrere richtige Antworten hinzufügen.
+- [x] Mindestens eine Frage mit mehrere richtige Antworten hinzufügen. (Hier hat sich meinen Laptop heruntergefahren, als ich das ganze Programmiert habe. also habe ich das als Hausaufgabe genommen.
 - [x] Ich teste das ganze Programm noch kurz aus, ich suche nach Logikfehler und überarbeite sie.
-- [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht. Und Lösungen grün machen. (Hausaufgabe)
-(PS: Bei Auswahl der Schwierigkeit, noch ein System für ungültige Angaben erstellen)
+- [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht. Und Lösungen grün machen. (Das ist für die nächsten Arbeitspakete)
 
 ## Zusammenfassung 20.11.2026
 - Ich habe heute begonnen, indem ich für meinem Programm, verschiedene Stufen eingerichtet habe, an Anfang wollte die Idee die ich in meinem Kopf hate nicht funktionieren, das Programm hatte viele Logische Fehler und die 3 Stufen wollten einfach nicht funktionieren. nach einer Weile habe ich es geschafft, und konnte die einfache Stufe fertigstellen.
@@ -74,7 +73,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - Im dritten Arbeitspaket ist aber eine Tragödie geschehen, als ich an meine Fragen mit mehrere Antworten gearbeitet habe, fuhr mein Laptop herunter obwohl er noch auf 20% war, muss wohl einen Fehler im System sein. Als ich es aufgefahren habe, war alles weg. Aus diesem Grund habe ich aufs nächstes Mal 2 Hausaufgaben die ich erledigen muss. Sehr schade ):
 
 ## Arbeitspakete nächstes Mal
+- [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht. Und Lösungen grün machen.
 - [ ] Ich Programmiere die Mittlere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe. D.h Fragen mit 1 Antwort, Fragen mit mehrere Antworten, Lösungen und Auswahl für Erklärungen der Lösungen.
-- [ ] Weiter an die mittlere Stufe arbeiten.
+- [ ] Ich überprüfe alle Fehler und Unübersichtlichkeiten in meinem Bisherigen Code.
 - [ ] Ich Programmiere die Schwere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe. D.h Fragen mit 1 Antwort, Fragen mit mehrere Antworten, Lösungen und Auswahl für Erklärungen der Lösungen.
-- [ ] Weiter an die schwierige Stufe arbeiten
