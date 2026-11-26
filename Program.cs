@@ -566,7 +566,7 @@ if (difficulty == "1")
         Console.WriteLine("4. 40m");
     }
 
-    //Antwort von Frage Nummer 4 prüfen
+    //Antwort von Frage Nummer 5 prüfen
     bool validAnswer5 = false;
     while (validAnswer5 == false)
     {
@@ -634,6 +634,114 @@ if (difficulty == "1")
             }
         }
     }
+
+    // Frage Nummer 6 (Mehrere Antworten)
+    Console.WriteLine();
+    if (theme == "1")
+    {
+        Console.WriteLine("Frage Nummer 6 (Mehrere Antworten Bsp: 1,2): Welche Programmiersprachen gibt es?");
+        Console.WriteLine("1. C#");
+        Console.WriteLine("2. Python");
+        Console.WriteLine("3. HTML");
+        Console.WriteLine("4. Windows");
+    }
+    else if (theme == "2")
+    {
+        Console.WriteLine("Frage Nummer 6 (Mehrere Antworten Bsp: 1,2): Welche Positionen gibt es im Fussball?");
+        Console.WriteLine("1. Torwart");
+        Console.WriteLine("2. Schiedsrichter");
+        Console.WriteLine("3. Stürmer");
+        Console.WriteLine("4. Verteidiger");
+    }
+    else if (theme == "3")
+    {
+        Console.WriteLine("Frage Nummer 6 (Mehrere Antworten Bsp: 1,2): Welche Länder liegen in Europa?");
+        Console.WriteLine("1. Japan");
+        Console.WriteLine("2. Türkei");
+        Console.WriteLine("3. Portugal");
+        Console.WriteLine("4. Italien");
+    }
+    else if (theme == "4")
+    {
+        Console.WriteLine("Frage Nummer 6 (Mehrere Antworten Bsp: 1,2): Welche Stoffe sind chemische Elemente?");
+        Console.WriteLine("1. Sauerstoff");
+        Console.WriteLine("2. Wasser");
+        Console.WriteLine("3. Luft");
+        Console.WriteLine("4. Gold");
+    }
+    else if (theme == "5")
+    {
+        Console.WriteLine("Frage Nummer 6 (Mehrere Antworten Bsp: 1,2): Welche Zahlen sind gerade?");
+        Console.WriteLine("1. 2²");
+        Console.WriteLine("2. 10");
+        Console.WriteLine("3. 9");
+        Console.WriteLine("4. 4");
+    }
+
+    //Antwort von Frage Nummer 6 prüfen
+    bool validAnswer6 = false;
+    while (validAnswer6 == false)
+    {
+        //If - else schleife zum prüfen ob es korrekt ist. Zusammen mit eine While schleife damit es bei ungültige eingaben nochmals kommt.
+        Console.WriteLine("Antworte von 1-4!");
+        answer = Console.ReadLine();
+        if (answer == "1,2,3" && theme == "1")
+        {
+            Console.WriteLine("Korrekt! Yuhuu!");
+            points++;
+            validAnswer6 = true;
+        }
+        else if (answer == "1,3,4" && theme == "2")
+        {
+            Console.WriteLine("Korrekt! Yuhuu!");
+            points++;
+            validAnswer6 = true;
+        }
+        else if (answer == "3,4" && theme == "3")
+        {
+            Console.WriteLine("Korrekt! Yuhuu!");
+            points++;
+            validAnswer6 = true;
+        }
+        else if (answer == "1,4" && theme == "4")
+        {
+            Console.WriteLine("Korrekt! Yuhuu!");
+            points++;
+            validAnswer6 = true;
+        }
+        else if (answer == "1,2,4" && theme == "5")
+        {
+            Console.WriteLine("Korrekt! Yuhuu!");
+            points++;
+            validAnswer6 = true;
+        }
+        else
+        {
+            Console.WriteLine("Leider falsch! Versuche es beim nächsten Mal. Schaue ob deine Antwort oder deine Eingabe nicht richtig ist!");
+            validAnswer6 = true;
+
+            if (theme == "1")
+            {
+                Console.WriteLine("Die richtige Antwort waren die Nummern 1, 2 und 3");
+            }
+            else if (theme == "2")
+            {
+                Console.WriteLine("Die richtige Antwort waren die Nummern 1, 3 und 4");
+            }
+            else if (theme == "3")
+            {
+                Console.WriteLine("Die richtige Antwort waren Nummern 3 und 4");
+            }
+            else if (theme == "4")
+            {
+                Console.WriteLine("Die richtige Antwort waren Nummern 1 und 4");
+            }
+            else if (theme == "5")
+            {
+                Console.WriteLine("Die richtige Antwort waren die Nummern 1, 2 und 4");
+            }
+        }
+    }
 }
 else if (difficulty == "2")
 {
@@ -654,15 +762,15 @@ else if (difficulty == "3")
     //Nachricht nach der Analyse der Punkte
     Console.WriteLine();
 
-    if (points < 2)
+    if (points < 3)
     {
         Console.WriteLine("Kopf hoch, das nächste Mal klappt das schon.");
     }
-    else if (points == 2)
+    else if (points == 3)
     {
         Console.WriteLine("Nicht schlecht!");
     }
-    else if (points > 2)
+    else if (points > 3)
     {
         Console.WriteLine("Gut gemacht!");
     }
