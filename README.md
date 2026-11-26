@@ -63,7 +63,7 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 
 ## Arbeitspakete 20.11.2026
 - [x] Möglichkeit für drei verschiedene Schwierigkeitsstufen ermöglichen, an denen ich nächstes mal arbeiten werde.
-- [x] Mindestens 2 oder 3 Fragen mit mehrere richtige Antworten hinzufügen.
+- [ ] Mindestens eine Frage mit mehrere richtige Antworten hinzufügen.
 - [x] Ich teste das ganze Programm noch kurz aus, ich suche nach Logikfehler und überarbeite sie.
 - [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht. Und Lösungen grün machen. (Hausaufgabe)
 (PS: Bei Auswahl der Schwierigkeit, noch ein System für ungültige Angaben erstellen)
