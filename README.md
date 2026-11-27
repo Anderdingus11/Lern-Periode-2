@@ -73,7 +73,16 @@ Zuerst programmiere ich eine einfache Version. Danach möchte ich neue Funktione
 - Im dritten Arbeitspaket ist aber eine Tragödie geschehen, als ich an meine Fragen mit mehrere Antworten gearbeitet habe, fuhr mein Laptop herunter obwohl er noch auf 20% war, muss wohl einen Fehler im System sein. Als ich es aufgefahren habe, war alles weg. Aus diesem Grund habe ich aufs nächstes Mal 2 Hausaufgaben die ich erledigen muss. Sehr schade ):
 
 ## Arbeitspakete nächstes Mal
-- [ ] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht. Und Lösungen grün machen.
-- [ ] Ich Programmiere die Mittlere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe. D.h Fragen mit 1 Antwort, Fragen mit mehrere Antworten, Lösungen und Auswahl für Erklärungen der Lösungen.
-- [ ] Ich überprüfe alle Fehler und Unübersichtlichkeiten in meinem Bisherigen Code.
-- [ ] Ich Programmiere die Schwere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe. D.h Fragen mit 1 Antwort, Fragen mit mehrere Antworten, Lösungen und Auswahl für Erklärungen der Lösungen.
+- [x] Wenn ich etwas falsch beantworte, bekomme ich die Lösung dazu, doch ich will eine Option machen, die mir aussuchen lässt ob ich eine Erklärung dazu haben will oder nicht.
+- [x] Ich überprüfe alle Fehler und Unübersichtlichkeiten in meinem Bisherigen Code.
+- [ ] Ich Programmiere die Mittlere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe. D.h Fragen mit 1 Antwort, Fragen mit mehrere Antworten, Lösungen und Auswahl für Erklärungen der Lösungen. (Hausaufgabe)
+- [ ] Ich beende die Mittlere Stufe meines Projektes. (Hausaufgabe)
+
+## Zusammenfassung 27.11.2026
+- Ich habe heute im ersten Arbeitspaket versucht, das Code so zu programmieren, damit es mir bei falschen Antworten erlaubt, eine Erklärung für eine Richtige Antwort zu sehen. Am Anfang hatte ich keine Ahnung, wie ich das machen sollte, also habe ich einfach so viel wie möglich experimentiert, bis ich dann eine Lösung gefunden habe.
+- Dann habe ich gemerkt, dass mein Programm sehr viele Fehler hatte, also habe ich nach allen Fehler die nach dem Experiment geschehen sind und ich habe sie erhoben.
+
+## Abreitspakete nächstes Mal
+- [ ] Die Erklärungen der Antworten vollständig beenden.
+- [ ] Ich Programmiere die schwere Stufe meines Projektes. Ich folge das gleiche Prinzip wie bei der einfache Stufe.
+- [ ] Ich beende die Schwere Stufe meines Projektes.
